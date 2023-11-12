@@ -1,0 +1,9 @@
+phonebook_with_tuple = [('Anna', '123456789'), ('Oskars', '987654321')]
+
+name_to_add = input('Enter new name: ')
+number_to_add = input('Enter new number: ')
+
+phonebook_with_tuple.append((name_to_add, number_to_add))
+print(phonebook_with_tuple)
+
+name_to_delete = input('Enter name to delete: ')
